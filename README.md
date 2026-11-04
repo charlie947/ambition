@@ -12,6 +12,8 @@ Type `/ambition` and one line. It writes a bigger brief with a target and an out
 
 ## Install
 
+The skill is free. It runs in Claude Code, which needs a paid Claude plan (Pro or above).
+
 In Claude Code:
 
 ```

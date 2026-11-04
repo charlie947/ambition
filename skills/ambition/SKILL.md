@@ -39,7 +39,7 @@ Say what access Claude needs to work without the user: the data, the logs, the t
 4. A target well beyond the obvious one, treated as reachable. Keep going when it first looks impossible.
 5. One belief to test against the raw data, and one new finding to look for.
 
-**Range.** Rewrite the nouns as verbs, because the verbs show which fields apply. A deck is not a deck. It is getting busy people to believe a cause and decide quickly. List the fields a dream team would need, including someone paid to find the flaw. Borrow what each field does, never how it sounds. Writing in a character's voice changes the transcript and not the result.
+**Range.** Rewrite the nouns as verbs, because the verbs show which fields apply. A website is not a website. It is getting a stranger on their phone to pick you. List the fields a dream team would need, including someone paid to find the flaw. Borrow what each field does, never how it sounds. Writing in a character's voice changes the transcript and not the result.
 
 **Every version names an outside judge.** A test, a tool, real data, results on data it has not seen, or a fresh chat that never saw the work. Claude judging its own work is not a judge.
 
