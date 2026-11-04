@@ -5,7 +5,7 @@ description: Turn a plain ask into a more ambitious one, then run it. Use when t
 
 # Ambition
 
-A plain ask gets a plain answer. This skill finds the bigger ask inside it, runs that, and proves the result with something other than Claude's own opinion.
+A plain ask gets a plain answer. This skill finds the bigger ask inside it, runs that and proves the result with something other than Claude's own opinion.
 
 The frame comes from Felix Rieseberg's post (felixrieseberg.com, 13/10/2026). Speed needs no help, so it is left out.
 
@@ -26,7 +26,7 @@ Name one lead direction, and a second only if it adds something real.
 ## 3. Write the bigger ask
 
 **Altitude.** Go up one step at a time and stop at the highest step that is useful.
-1. Explain: what changed, why, and what to do about it.
+1. Explain: what changed, why and what to do about it.
 2. Decide: the most urgent decisions, with the case for and against each.
 3. Replace: a better way to get the result the task exists for, tested against the user's own history and run beside the current way.
 
@@ -48,7 +48,7 @@ Say what access Claude needs to work without the user: the data, the logs, the t
 Show the bigger ask in one code block, then do the work. Stop there only if the user says "rewrite only" or the data is missing. If a skill owns the job, open that skill too and let its rules stand.
 
 - If a run needs many agents or long sessions, try the smallest slice first and give the measured cost before going further.
-- Ask first before spending money, messaging anyone, publishing, deleting, or changing live data.
+- Ask first before spending money, messaging anyone, publishing, deleting or changing live data.
 
 ## 5. Report
 
