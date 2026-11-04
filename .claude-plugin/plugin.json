@@ -1,0 +1,7 @@
+{
+  "name": "ambition",
+  "description": "Turns a plain ask into a more ambitious one, then runs it.",
+  "version": "1.0.0",
+  "author": { "name": "Charlie Hills", "url": "https://charliehills.substack.com" },
+  "license": "MIT"
+}

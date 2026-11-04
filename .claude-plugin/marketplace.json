@@ -1,0 +1,19 @@
+{
+  "name": "ambition",
+  "owner": {
+    "name": "Charlie Hills",
+    "url": "https://charliehills.substack.com"
+  },
+  "plugins": [
+    {
+      "name": "ambition",
+      "source": ".",
+      "description": "Turns a plain ask into a more ambitious one, then runs it. Finds the bigger job inside your task, writes the brief with a target and an outside check, then does the work. Built on the three principles in Felix Rieseberg's article.",
+      "version": "1.0.0",
+      "metadata": {
+        "categories": ["productivity"],
+        "tags": ["claude-code", "prompting", "ambition", "briefs", "skill"]
+      }
+    }
+  ]
+}
