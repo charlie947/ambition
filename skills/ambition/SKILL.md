@@ -17,6 +17,8 @@ Use the task in the message. If there is none, use the last task in the chat. A 
 
 Name one lead direction, and a second only if it adds something real.
 
+**Anything people look at or read (a page, a graphic, a video, a deck, copy) leads with Depth, and Range second. Never lead with Altitude on creative work.** Altitude aims past the thing itself, so the thing gets worse. Measured 06/11/2026: a landing page and a motion graphic led by Altitude aimed at sign-ups and looked worse than plain Claude. Led by Depth, both looked better.
+
 | Direction | Use it when | The question |
 |---|---|---|
 | **Altitude** | There is a real outcome behind the task. A meeting or decision will follow it, or the same job keeps coming back. Weak on creative work | What should happen after this is delivered? What is the goal behind the goal? |
@@ -45,7 +47,7 @@ Say what access Claude needs to work without the user: the data, the logs, the t
 
 ## 4. Run it
 
-Show the bigger ask in one code block, then do the work. Stop there only if the user says "rewrite only" or the data is missing. If a skill owns the job, open that skill too and let its rules stand.
+Print the bigger ask in one code block before your first tool call, every time, including one-shot and headless runs. Then do the work. Stop there only if the user says "rewrite only" or the data is missing. If a skill owns the job, open that skill too and let its rules stand.
 
 - If a run needs many agents or long sessions, try the smallest slice first and give the measured cost before going further.
 - Ask first before spending money, messaging anyone, publishing, deleting or changing live data.
@@ -55,5 +57,6 @@ Show the bigger ask in one code block, then do the work. Stop there only if the 
 Lead with what came back. Then give what the judge found, in numbers where there are numbers.
 
 - A missed target is reported as missed, with the real number. A hard goal never makes a claim true.
+- Run the judge yourself whenever you have the tools: open the page, screenshot it, capture the frames, run the test. Write NOT RUN only when you cannot, and name the access that would let you.
 - A judge that did not run is written NOT RUN.
 - Name anything the skill could not reach, and the access that would open it.
