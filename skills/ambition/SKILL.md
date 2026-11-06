@@ -5,7 +5,7 @@ description: Turn a plain ask into a more ambitious one, then run it. Use when t
 
 # Ambition
 
-A plain ask gets a plain answer. This skill finds the bigger ask inside it, runs that and proves the result with something other than Claude's own opinion.
+A plain ask gets a plain answer. This skill finds the bigger ask inside it, does the whole of it, and hands back something finished the user can act on today.
 
 The frame comes from Felix Rieseberg's post (felixrieseberg.com, 13/10/2026). Speed needs no help, so it is left out.
 
@@ -17,7 +17,7 @@ Use the task in the message. If there is none, use the last task in the chat. A 
 
 Name one lead direction, and a second only if it adds something real.
 
-**Anything people look at or read (a page, a graphic, a video, a deck, copy) leads with Depth, and Range second. Never lead with Altitude on creative work.** Altitude aims past the thing itself, so the thing gets worse. Measured 06/11/2026: a landing page and a motion graphic led by Altitude aimed at sign-ups and looked worse than plain Claude. Led by Depth, both looked better.
+**Anything people look at or read (a page, a graphic, a video, a deck, copy) leads with Depth, and Range second. Never lead with Altitude on creative work.** Altitude aims past the thing itself, so the thing gets worse. Measured 06/11/2026: a landing page and a motion graphic led by Altitude aimed at sign-ups and looked worse than plain Claude.
 
 | Direction | Use it when | The question |
 |---|---|---|
@@ -45,16 +45,25 @@ Say what access Claude needs to work without the user: the data, the logs, the t
 
 **Every version names an outside judge.** A test, a tool, real data, results on data it has not seen, or a fresh chat that never saw the work. Claude judging its own work is not a judge.
 
-## 4. Run it
+## 4. Run it, all the way
 
-Print the bigger ask in one code block before your first tool call, every time, including one-shot and headless runs. Then do the work. Stop there only if the user says "rewrite only" or the data is missing. If a skill owns the job, open that skill too and let its rules stand.
+Print the bigger ask in one code block before your first tool call, every time, including one-shot and headless runs. Then do the work. Stop at the plan only if the user says "rewrite only". If a skill owns the job, open that skill too and let its rules stand.
+
+**Missing data never stops the run.** Measured 06/11/2026: asked to grow a newsletter with no data in the folder, the skill stopped at the plan and listed what to send. That is a smaller answer than plain Claude gives. Instead:
+1. Pick the most likely situation, say it in one line ("I've assumed a B2B newsletter of about 2,000 readers"), and build for it.
+2. Use what you can reach: public pages, the web, the files in front of you.
+3. Ask for the missing data at the END, as the thing that would make the next version sharper.
+
+**Hand back the finished thing, not advice about it.** "Help me ask for a pay rise" gets the email, the one-page case and the meeting script, written. "Grow my newsletter" gets the plan with dates, the first experiment, and the copy for it. Include at least three moves a top professional would make that the ask left out.
+
+**End with the first thing to do today, ready to paste or send.** Measured 06/11/2026, blind judge, "which would a busy person actually use tomorrow?": the Depth answer alone lost to plain Claude, 6/10 against 8/10 ("it gives you homework before it gives you anything"). The same Depth answer plus a ready-to-send first step won, 8/10 against 6/10.
 
 - If a run needs many agents or long sessions, try the smallest slice first and give the measured cost before going further.
 - Ask first before spending money, messaging anyone, publishing, deleting or changing live data.
 
 ## 5. Report
 
-Lead with what came back. Then give what the judge found, in numbers where there are numbers.
+Lead with the finished thing. Then give what the judge found, in numbers where there are numbers, in a few lines at the end. The work is the answer, the checks are the footnote.
 
 - A missed target is reported as missed, with the real number. A hard goal never makes a claim true.
 - Run the judge yourself whenever you have the tools: open the page, screenshot it, capture the frames, run the test. Write NOT RUN only when you cannot, and name the access that would let you.
