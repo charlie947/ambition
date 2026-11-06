@@ -12,9 +12,16 @@ Type `/ambition` and one line. It writes a bigger brief with a target and an out
 
 ## Install
 
-The skill is free. It runs in Claude Code, which needs a paid Claude plan (Pro or above).
+The skill is free.
 
-In Claude Code:
+**In the Claude app:**
+
+1. Download [ambition.zip](https://github.com/charlie947/ambition/releases/latest/download/ambition.zip).
+2. In Claude, click **Customize** in the left sidebar.
+3. On the **Skills** tab, click **Add**, then **Upload skill**.
+4. Choose the file you downloaded.
+
+**In Claude Code** (needs a paid Claude plan, Pro or above):
 
 ```
 /plugin marketplace add charlie947/ambition
@@ -33,7 +40,7 @@ They come from [Felix Rieseberg's article](https://felixrieseberg.com/how-to-be-
 | Depth | What would the best person in this field do that you left out? | One thing that has to be excellent |
 | Range | Which other fields have already solved part of this? | Creative work, or a stale approach |
 
-The skill picks the lead one, and a second only if it adds something real. It also makes Claude name an outside check, because Claude marking its own work isn't a check.
+The skill picks the lead one, and a second only if it adds something real. On creative work (a page, a graphic, a video) it leads with Depth and goes all out: three concepts first, a named quality bar, the whole thing built, then at least two rounds of looking and fixing. It also makes Claude name an outside check, because Claude marking its own work isn't a check.
 
 ## What to expect
 

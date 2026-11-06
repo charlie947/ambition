@@ -45,6 +45,17 @@ Say what access Claude needs to work without the user: the data, the logs, the t
 
 **Every version names an outside judge.** A test, a tool, real data, results on data it has not seen, or a fresh chat that never saw the work. Claude judging its own work is not a judge.
 
+## 3b. Creative work: go all out
+
+Anything people look at (a page, a graphic, a video, a deck) gets this on top of Depth. A one-line creative ask is the most underspecified ask there is, so plain Claude ships a competent template. The skill exists to ship the thing a top studio would.
+
+1. **Concepts before pixels.** Write three genuinely different ideas, not three styles of one idea. An idea is a sentence about what the viewer feels or understands ("marketing just got rewired, here is the briefing that keeps up"). Pick the one a jury would remember, say why in one line.
+2. **Name the bar.** Name the best real example in this category and the two or three craft moves that make it great (type scale, rhythm, one surprising interaction, a story with beats). Build to that bar, not to "looks fine".
+3. **Build more than was asked.** A landing page is the whole page: hero, proof, what you get, a real sample, objections, sign-up twice, footer, and it works on a phone. A motion graphic is a storyboard first: beats with timings, kinetic type, eased motion, a payoff frame. Write the real copy, never lorem ipsum or "Your headline here".
+4. **Use the brief's constraints as fuel.** If the user gives colours or fonts, keep them exactly and make them look expensive: contrast, whitespace, one accent used sparingly.
+5. **Look at it, then fix it. At least two rounds.** If you can run code, render it and look: screenshot the page at desktop and phone width, or capture frames across the timeline, with any headless browser you have (Playwright, Puppeteer or headless Chrome, wrapped in a timeout). Each round, name the three weakest things against the bar and fix them. If you cannot render (for example in a chat app with no code tools), do the same review by reading the code line by line against the bar, say "not rendered" in your report, and ask the user to open the preview and name the weakest part.
+6. **The template test.** Before you hand it back, ask: could this be mistaken for a template with the name swapped in? If yes, it is not done.
+
 ## 4. Run it, all the way
 
 Print the bigger ask in one code block before your first tool call, every time, including one-shot and headless runs. Then do the work. Stop at the plan only if the user says "rewrite only". If a skill owns the job, open that skill too and let its rules stand.
